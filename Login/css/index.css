@@ -122,3 +122,72 @@ body {
 .g_id_signin {
   margin-top: 10px;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .Formulario {
+    width: 80%;
+    padding: 25px;
+  }
+
+  .img-form {
+    width: 120px;
+    height: auto;
+  }
+
+  .titulo {
+    font-size: 22px;
+  }
+
+  .sub-titulo {
+    font-size: 18px;
+  }
+
+  .botao1 {
+    font-size: 14px;
+    padding: 10px;
+    width: 60%;
+  }
+
+  .link-registro {
+    font-size: 18px;
+  }
+
+  .divisao {
+    font-size: 16px;
+  }
+
+  .divisao::before,
+  .divisao::after {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Formulario {
+    width: 60%;
+    padding: 15px;
+  }
+
+  .img-form {
+    width: 80px;
+    height: auto;
+  }
+
+  .titulo {
+    font-size: 20px;
+  }
+
+  .sub-titulo {
+    font-size: 16px;
+  }
+
+  .botao1 {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .link-registro {
+    font-size: 16px;
+  }
+}
