@@ -149,6 +149,10 @@ body {
     width: 60%;
   }
 
+  .link {
+    font-size: 12px;
+  }
+  
   .link-registro {
     font-size: 18px;
   }
@@ -170,7 +174,7 @@ body {
   }
 
   .img-form {
-    width: 80px;
+    width: 120px;
     height: auto;
   }
 
@@ -187,7 +191,11 @@ body {
     width: 90%;
   }
 
+  .link {
+    font-size: 12px;
+  }
+  
   .link-registro {
-    font-size: 16px;
+    font-size: 18px;
   }
 }

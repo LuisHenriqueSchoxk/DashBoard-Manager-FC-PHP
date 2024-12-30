@@ -66,3 +66,57 @@ body {
 .botao1:hover {
   background: #C5661E;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .Formulario {
+      width: 80%;
+      padding: 25px;
+  }
+
+  .img-form {
+      width: 120px;
+      height: auto;
+  }
+
+  .titulo {
+      font-size: 22px;
+  }
+
+  .sub-titulo {
+      font-size: 18px;
+  }
+
+  .botao1 {
+      font-size: 14px;
+      padding: 10px;
+      width: 60%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .Formulario {
+      width: 60%;
+      padding: 15px;
+  }
+
+  .img-form {
+      width: 120px;
+      height: auto;
+  }
+
+  .titulo {
+      font-size: 20px;
+  }
+
+  .sub-titulo {
+      font-size: 16px;
+  }
+
+  .botao1 {
+      font-size: 14px;
+      width: 90%;
+  }
+
+}
