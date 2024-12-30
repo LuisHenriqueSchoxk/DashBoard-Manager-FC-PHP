@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  font-family: "Poppins", serif;
+  background-color: #C7C7C7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,73 +9,78 @@ body {
 }
 
 .Formulario {
-  background: #fff;
-  padding: 30px;
+  background: #FAFAFA;
+  padding: 45px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 370px;
   text-align: center;
 }
 
 .img-form {
-  margin-bottom: 10px;
-  width: 130px;
+  width: 180px;
   height: auto;
 }
 
 .titulo {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #000000;
+  font-size: 26px;
+  color: #FF8326;
+  margin: 0;
+}
+
+.discricao {
+  color: #C5661E;
+  margin: 0;
 }
 
 .sub-titulo {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #333;
+  font-size: 22px;
+  margin: 12px;
+  color: #030303;
+  text-transform: uppercase;
 }
 
 .label-form {
   display: block;
   text-align: left;
   font-size: 14px;
-  margin-bottom: 5px;
+  margin: 5px;
+  color: #C5661E;
 }
 
 .input-one {
   width: 90%;
   padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 1px solid #C7C7C7;
+  border-radius: 6px;
 }
 
 .input-check {
   margin-right: 5px;
 }
 
-.botao-logar {
+.botao1 {
   width: 100%;
-  padding: 10px;
-  background: #ff6600;
-  color: #fff;
+  padding: 12px;
+  background: #FF8326;
+  color: #030303;
   border: none;
-  border-radius: 4px;
-  font-size: 14px;
+  border-radius: 6px;
+  font-size: 16px;
   cursor: pointer;
-  margin-bottom: 2px;
-  margin-top: 10px;
+  margin: 10px;
+  font-weight: bold;
 }
 
-.botao-logar:hover {
-  background: #722c00;
+.botao1:hover {
+  background: #C5661E;
 }
 
 .link {
   display: block;
-  margin: 15px;
+  margin: 10px;
   font-size: 14px;
-  color: #ff6600;
+  color: #C5661E;
   text-decoration: none;
 }
 
@@ -83,25 +88,35 @@ body {
   text-decoration: underline;
 }
 
+.link-registro {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+  color: #C5661E;
+  text-decoration: none;
+}
+
+.link-registro:hover {
+  text-decoration: underline;
+}
+
 .divisao {
   margin: 10px;
-  font-size: 24px;
-  color: #222222;
+  font-size: 18px;
+  color: #030303;
 }
 
 .divisao {
   display: flex;
   align-items: center;
-  text-align: center;
-  margin: 10px;
 }
 
 .divisao::before,
 .divisao::after {
   content: '';
   flex: 1;
-  border-bottom: 1px solid #222222;
-  margin: 0 10px;
+  border: 1px solid #C5661E;
+  margin: 10px;
 }
 
 .g_id_signin {

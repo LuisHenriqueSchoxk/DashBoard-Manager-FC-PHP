@@ -21,16 +21,21 @@ if (isset($_SESSION['erro'])) {
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <title>Login</title>
     <link href="./css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
 
     <form class="Formulario" action="proc_logar.php" method="POST">
-        <img class="img-form" src="../Assets/Logo/Manager_FC_Logo.png">
+        <img class="img-form" src="../Assets/Logo/Manager_FC_Logo_Sem_Fundo.png">
 
-        <h1 class="titulo">Manager Dashboard</h1>
+        <h1 class="titulo">Manager FC</h1>
+        <p class="discricao">Gerencie seu modo carreira!!</p>
 
-        <h2 class="sub-titulo">Faça seu Registro</h2>
+        <h2 class="sub-titulo">Faça seu Login</h2>
 
         <label class="label-form" for="email">Endereço de email</label>
         <input class="input-one" type="email" name="email" id="email" placeholder="Seu email" required>
@@ -44,11 +49,11 @@ if (isset($_SESSION['erro'])) {
             </label>
         </div>
 
-        <button class="botao-logar" type="submit">Logar</button>
+        <button class="botao1" type="submit">Entrar</button>
 
         <a class="link" href="../RecuperarSenha">Esqueci minha senha</a>
 
-        <a class="link" href="../Registro">Se registre aqui!!</a>
+        <a class="link-registro" href="../Registro">Se registre aqui!!</a>
 
         <p class="divisao">ou</p>
 
@@ -77,14 +82,14 @@ if (isset($_SESSION['erro'])) {
             console.log("ID Token do Google:", response.credential);
             // Enviar o token para o servidor para validação
         }
-        
+
         document.querySelector('form').addEventListener('submit', function(e) {
             var email = document.getElementById('email').value;
             var senha = document.getElementById('senha').value;
 
             if (!email || !senha) {
                 alert('Por favor, preencha todos os campos.');
-                e.preventDefault(); 
+                e.preventDefault();
                 return;
             }
 

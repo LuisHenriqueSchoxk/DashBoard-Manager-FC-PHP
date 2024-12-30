@@ -20,9 +20,10 @@ if (isset($_SESSION['erro'])) {
 <body>
 
     <form class="Formulario" action="proc_registrar_usuario.php" method="POST">
-        <img class="img-form" src="../Assets/Logo/Manager_FC_Logo.png">
+        <img class="img-form" src="../Assets/Logo/Manager_FC_Logo_Sem_Fundo.png">
 
-        <h1 class="titulo">Manager Dashboard</h1>
+        <h1 class="titulo">Manager FC</h1>
+        <p class="discricao">Gerencie seu modo carreira!!</p>
 
         <h2 class="sub-titulo">Faça seu Registro</h2>
 
@@ -38,7 +39,7 @@ if (isset($_SESSION['erro'])) {
         <label class="label-form" for="confirmar_senha">Confirme sua Senha</label>
         <input class="input-one" type="password" name="confirmar_senha" id="confirmar_senha" placeholder="Senha" required>
 
-        <button class="botao-registrar" type="submit">Registrar</button>
+        <button class="botao1" type="submit">Registrar-se</button>
 
     </form>
 

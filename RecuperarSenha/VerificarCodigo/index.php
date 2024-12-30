@@ -21,7 +21,7 @@ if (isset($_SESSION['erro'])) {
 <body>
 
     <form class="Formulario" action="verificar_codigo.php" method="POST">
-        <img class="img-form" src="../../Assets/Logo/Manager_FC_Logo.png">
+        <img class="img-form" src="../../Assets/Logo/Manager_FC_Logo_Sem_Fundo.png">
 
         <h1 class="titulo">Manager Dashboard</h1>
 
@@ -30,7 +30,7 @@ if (isset($_SESSION['erro'])) {
         <label class="label-form" for="codigo">Digite o código que você recebeu por email:</label>
         <input class="input-one" type="text" name="codigo" id="codigo" placeholder="Codigo" required>
 
-        <button class="botao-logar" type="submit">Verificar Código</button>
+        <button class="botao1" type="submit">Verificar Código</button>
 
     </form>
 

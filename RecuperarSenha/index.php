@@ -21,7 +21,7 @@ if (isset($_SESSION['erro'])) {
 <body>
 
     <form class="Formulario" action="proc_recuperar_senha.php" method="POST">
-        <img class="img-form" src="../Assets/Logo/Manager_FC_Logo.png">
+        <img class="img-form" src="../Assets/Logo/Manager_FC_Logo_Sem_Fundo.png">
 
         <h1 class="titulo">Manager Dashboard</h1>
 
@@ -30,7 +30,7 @@ if (isset($_SESSION['erro'])) {
         <label class="label-form" for="email">Endereço de email</label>
         <input class="input-one" type="email" name="email" id="email" placeholder="Seu email" required>
 
-        <button class="botao-logar" type="submit">Receber codigo</button>
+        <button class="botao1" type="submit">Receber codigo</button>
 
     </form>
 
