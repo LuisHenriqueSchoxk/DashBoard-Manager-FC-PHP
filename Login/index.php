@@ -26,7 +26,7 @@ if (isset($_SESSION['erro'])) {
 <body>
 
     <form class="Formulario" action="proc_logar.php" method="POST">
-        <img class="img-form" src="./img/Logo.png">
+        <img class="img-form" src="../Assets/Logo/Manager_FC_Logo.png">
 
         <h1 class="titulo">Manager Dashboard</h1>
 
