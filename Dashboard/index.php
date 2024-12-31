@@ -39,11 +39,15 @@ if (!isset($_SESSION['usuario_id'])) {
         <nav class="nav-cabecalho-container">
             <ul class="nav-cabecalho-links">
                 <li>
-                    <i class="fa-solid fa-user fa-2xs" style="color: #030303;"></i>
+                    <i class="fa-solid fa-user fa-xl" style="color: #030303;"></i>
                     <a href="../Perfil">Usuário</a>
                 </li>
                 <li>
-                    <i class="fa-solid fa-right-from-bracket fa-2xs" style="color: #030303;"></i>
+                    <i class="fa-solid fa-gamepad fa-xl" style="color: #030303;"></i>
+                    <a href="../DadosDeJogo">Dados de Jogo</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-right-from-bracket fa-xl" style="color: #030303;"></i>
                     <a href="Proc_Logout.php">Sair</a>
                 </li>
             </ul>

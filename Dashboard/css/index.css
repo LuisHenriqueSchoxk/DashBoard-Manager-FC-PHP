@@ -83,12 +83,6 @@ body {
   color: #FF8326;
 }
 
-.fa-user,
-.fa-right-from-bracket {
-  font-size: 25px;
-  cursor: pointer;
-}
-
 /* conteudo */
 .conteudo {
   display: grid;
